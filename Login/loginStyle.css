@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+}
+
+form{
+    background: #03DA89;
+    z-index: 1;
+    font-family: "Candara", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    padding: 0 45px 30px 45px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+
+.form h2{
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.form input{
+    outline: 0;
+    background: none;
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2.5px solid #034DB2;
+    border-radius: 25px;
+    transition: 0.5s;
+    transition-property: width;
+}
+
+.form input:hover{
+    width: 275px;
+}
+
+.form input:focus{
+    width: 275px;
+}
+
+.form button{
+    outline: 0;
+    background: none;
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 10px;
+    border: 2.5px solid #F7161D;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: background, transform;
+}
+
+.form button:hover, .form button:active, .form button:focus{
+    background: #F7161D;
+    transform: scale(1.1);
+}
+
+.form .options{
+    color: #000;
+    font-size: 14px;
+    margin: 20px 0 0;
+
+}
+
+.form .options a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.images {
+    width: 10px;  
+}
+
+.images .manager-image{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+
+.images .cam-image{
+    position: absolute;
+    top: 40%;
+    left: 90%; 
+}
+
+.images .lights-image{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.images .safety-image{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}

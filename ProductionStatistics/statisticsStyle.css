@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    height: 100vh;  
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.back-button{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+}
+
+
+.main-image{
+    display: flex;
+    justify-content: center;
+}
+.btn-back{
+    background: red;
+    height: 30px;
+    border-radius: 25px;
+    
+}
+#back-button{
+    color: black;
+    border-radius: 25px;
+}
+
+.statistics-header{
+    display: flex;
+    justify-content: center;
+}
+
+.upper-charts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.chart_indicator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.indicator-heeading{
+    position: relative;
+    right: 24px;
+}

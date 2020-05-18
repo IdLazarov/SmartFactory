@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="statisticsStyle.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Production Statistics</title>
+</head>
+
+<body>
+    <div class="heading">
+        <div class="back-button">
+            <button type="button" class="btn-back"><a href="../HomePage/home.html"><i class="fas fa-chevron-circle-left"
+                        id="back-button"></i></a></button>
+        </div>
+        <h2>Smart Factory</h2>
+        <!-- <div class="help-button">
+            <button type="button" class="btn"><a id="help-button" href="../Images/process.jpg">Help?</a></button>
+        </div> -->
+    </div>
+    <hr>
+    <div class="statistics-header">
+        <h1>Production statistics</h1>
+    </div>
+    <div class="upper-charts">
+        <div id="piechart" style="width: 600px; height: 500px;"></div>
+        <div class="chart_indicator">
+            <div>
+                <p class="indicator-heeading">Vibration Level ---- Main pomp ---- Aceleration</p>  
+            </div>
+            <div id="chart_indicator" style="width: 400px; height: 120px;"></div>
+        </div>
+    </div>
+
+    <script src="statistics.js"></script>
+    <script src="pieChart.js"></script>
+    <script src="indicatorOfVibrations.js"></script>
+</body>
+
+</html>

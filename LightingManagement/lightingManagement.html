@@ -38,12 +38,57 @@
         </div>
         <div class="main-image">
             <div id="main-image">
-                <img id="the-image" src="/Images/yellow-png-2.png" alt="Smart factory" style="width:1100px;height:600px;">
+                <div id="rows-images">
+                    <div>
+                        <img id="the-image1" src="/Images/yellow-png-2.png" alt="Smart factory"
+                            style="width:525px;height:300px;">
+                    </div>
+                    <div>
+                        <img id="the-image2" src="/Images/yellow-png-2.png" alt="Smart factory"
+                            style="width:525px;height:300px;">
+
+                    </div>
+                    <div>
+                        <img id="the-image3" src="/Images/yellow-png-2.png" alt="Smart factory"
+                            style="width:525px;height:300px;">
+                    </div>
+                    <div>
+                        <img id="the-image4" src="/Images/yellow-png-2.png" alt="Smart factory"
+                            style="width:525px;height:300px;">
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
+        <div class="footer">smart factory by:</div>
     </div>
 
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCAtyCUcjIUf3ok5PxIBaUDy4kXVCsWSxs",
+            authDomain: "smart-factory-6bbde.firebaseapp.com",
+            databaseURL: "https://smart-factory-6bbde.firebaseio.com",
+            projectId: "smart-factory-6bbde",
+            storageBucket: "smart-factory-6bbde.appspot.com",
+            messagingSenderId: "1040931145001",
+            appId: "1:1040931145001:web:db475b8ae1ef5b86ede338",
+            measurementId: "G-TFTY6JVGK7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
     <script src="lighting.js"></script>
 </body>
 

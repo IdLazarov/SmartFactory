@@ -18,7 +18,7 @@
     <div class="heading">
         <div class="back-button">
             <button type="button" class="btn-back"><a id="back-button" href="../Login/login.html"><i
-                class="fas fa-chevron-circle-left"></i></a></button>
+                        class="fas fa-chevron-circle-left"></i></a></button>
         </div>
         <h2>Smart Factory</h2>
         <!-- <div class="help-button">
@@ -45,7 +45,29 @@
 
 
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCAtyCUcjIUf3ok5PxIBaUDy4kXVCsWSxs",
+            authDomain: "smart-factory-6bbde.firebaseapp.com",
+            databaseURL: "https://smart-factory-6bbde.firebaseio.com",
+            projectId: "smart-factory-6bbde",
+            storageBucket: "smart-factory-6bbde.appspot.com",
+            messagingSenderId: "1040931145001",
+            appId: "1:1040931145001:web:db475b8ae1ef5b86ede338",
+            measurementId: "G-TFTY6JVGK7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
     <script src="home.js"></script>
 </body>
 

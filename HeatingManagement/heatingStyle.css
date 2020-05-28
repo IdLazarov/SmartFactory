@@ -23,19 +23,47 @@ body{
 .main-image{
     display: flex;
     justify-content: center;
+    
 }
 #main-image{
 background-image: url("../Images/factory.jpg");
-height: 600px;
-width: 1100px;
 }
-#the-image{
-    opacity: 0.1;   
+#rows-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    margin-top: 7px;
 }
+
+#the-image1{
+    opacity: 0.1;  
+    position: relative;
+    top: 0px;
+}
+#the-image2{
+    opacity: 0.1; 
+    position: relative;
+    top: 0px;
+    
+}    
+
+#the-image3{
+    opacity: 0.1; 
+    position: relative;
+    top: 0px;
+}  
+
+#the-image4{
+    opacity: 0.1; 
+    position: relative;
+    top: 0px;
+}
+
 .btn-back{
     background: red;
     height: 30px;
     border-radius: 25px;
+    
 }
 #back-button{
     color: black;
@@ -65,7 +93,4 @@ width: 1100px;
 .bottom-buttons{
     display: flex;
     justify-content: space-around;
-}
-#heater1-button:active{
-    background-position: 0 -120 -120 -120;
 }
